@@ -12,9 +12,9 @@
 
 |  |  |
 |--|--|
-| NIM | **nim** |
-| Nama Lengkap | **nama** |
-| Kelas | TI-3D/3E |
+| NIM | **1841720184** |
+| Nama Lengkap | **Muhammad Yusril Hasriansyah** |
+| Kelas | TI-3D |
 
 
 ## Struktur Folder
@@ -33,4 +33,4 @@ Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektua
 
 Ttd,
 
-***(nama lengkap Anda)***
+***Muhammad Yusril Hasriansyah***
