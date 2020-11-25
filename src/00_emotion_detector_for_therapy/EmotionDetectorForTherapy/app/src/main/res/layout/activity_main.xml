@@ -17,6 +17,18 @@
         android:background="@android:color/white"
         tools:context=".MainActivity">
 
+        <fragment
+            android:id="@+id/fragment_main"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="409dp"
+            android:layout_height="543dp"
+            app:defaultNavHost="true"
+            app:layout_constraintBottom_toTopOf="@+id/footer_home"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_home"
+            app:navGraph="@navigation/app_nav" />
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/header_home"
             android:layout_width="match_parent"
@@ -85,6 +97,8 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/footer_home"
             android:layout_width="match_parent"
@@ -136,17 +150,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <fragment
-            android:id="@+id/fragment_home"
-            android:name="androidx.navigation.fragment.NavHostFragment"
-            android:layout_width="409dp"
-            android:layout_height="543dp"
-            app:defaultNavHost="true"
-            app:layout_constraintBottom_toTopOf="@+id/footer_home"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/header_home"
-            app:navGraph="@navigation/app_nav" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

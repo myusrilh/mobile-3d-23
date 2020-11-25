@@ -1,15 +1,20 @@
 package com.example.emotiondetectorfortherapy;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.example.emotiondetectorfortherapy.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
+import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
 
+public class MainActivity extends AppCompatActivity {
+    NavController navController=null;
      ActivityMainBinding mBinding;
+     ImageView medicalButton, homeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,5 +22,32 @@ public class MainActivity extends AppCompatActivity {
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
         mBinding.setNama("Hi, Yusril");
+
+        medicalButton = findViewById(R.id.medical_report_button_homescreen);
+        homeButton = findViewById(R.id.home_button_homescreen);
+
+
+
+        medicalButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                navController = Navigation.findNavController(view);
+                Fragment medicalFragment = new MedicalReportFragment();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_main, medicalFragment).commit();
+//                NavOptions navOptions = new NavOptions.Builder().setPopUpTo(R.id.home_fragment_nav,true).build();
+//                navController.navigate(R.id.navigate_home_to_medical_report,null,navOptions);
+            }
+        });
+
+        homeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                navController = Navigation.findNavController(view);
+                Fragment homeFragment = new HomeFragment();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_main, homeFragment).commit();
+//                navController.navigate(R.id.navigate_medical_report_to_home);
+            }
+        });
+
     }
 }
