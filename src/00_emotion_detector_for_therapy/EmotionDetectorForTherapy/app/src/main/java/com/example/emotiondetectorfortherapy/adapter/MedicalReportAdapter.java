@@ -41,8 +41,8 @@ public class MedicalReportAdapter extends RecyclerView.Adapter {
 
             tvHasil = (TextView) itemView.findViewById(R.id.hasil_medical_report);
             tvHari = (TextView) itemView.findViewById(R.id.hari_medical_report);
-            tvBulan = (TextView) itemView.findViewById(R.id.tanggal_medical_report);
-            tvTanggal = (TextView) itemView.findViewById(R.id.bulan_medical_report);
+            tvBulan = (TextView) itemView.findViewById(R.id.bulan_medical_report);
+            tvTanggal = (TextView) itemView.findViewById(R.id.tanggal_medical_report);
 
 
         }

@@ -4,7 +4,7 @@
     xmlns:card_view = "http://schemas.android.com/apk/res-auto"
     android:id="@+id/cardview_medical_report"
     android:layout_width="match_parent"
-    android:layout_height="105dp"
+    android:layout_height="125dp"
     android:layout_margin="5dp"
     android:layout_gravity="center_horizontal"
     card_view:cardBackgroundColor="@color/colorPrimary"
@@ -21,19 +21,20 @@
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="63dp"
-            android:layout_height="63dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
             android:background="@android:color/white"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_gravity="center_vertical">
 
             <TextView
                 android:id="@+id/hari_medical_report"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sabtu"
-                android:textSize="12sp"
+                android:textSize="14sp"
                 android:textColor="@android:color/black"
                 android:fontFamily="@font/poppins_light_italic"/>
 
@@ -42,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="12"
-                android:textSize="14sp"
+                android:textSize="18sp"
                 android:fontFamily="@font/poppins_extra_bold"
                 android:textColor="@android:color/black"/>
 
@@ -52,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:text="Sept"
                 android:fontFamily="@font/poppins_extra_bold"
-                android:textSize="14sp"
+                android:textSize="18sp"
                 android:textColor="@android:color/black"/>
 
         </LinearLayout>
@@ -95,7 +96,7 @@
                     android:id="@+id/deskripsi_saran_ahli_medical_report"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="7sp"
+                    android:textSize="12sp"
                     android:text="Marah adalah hal yang manusiawi, sebaik mungkin hindari hal yang memicu kemarahanmu...."
                     android:fontFamily="@font/poppins_regular"
                     android:textColor="@android:color/black"/>
