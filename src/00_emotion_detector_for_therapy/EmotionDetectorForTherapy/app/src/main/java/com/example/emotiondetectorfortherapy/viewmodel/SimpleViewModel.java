@@ -1,4 +1,7 @@
 package com.example.emotiondetectorfortherapy.viewmodel;
 
-public class SimpleViewModel {
+import androidx.lifecycle.ViewModel;
+
+public class SimpleViewModel extends ViewModel {
+
 }

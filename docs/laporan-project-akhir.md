@@ -2,6 +2,8 @@
 
 Emotion Detector For Therapy
 
+[Link Source Code](https://github.com/myusrilh/mobile-3d-23/tree/master/src/00_emotion_detector_for_therapy) (Bahasa Pemrograman Java)
+
 # Deskripsi Aplikasi
 
 Aplikasi "Emotion Detector For Therapy" ini berfungsi untuk mendeteksi emosi sesorang dari raut wajahnya, dengan hasil deteksi tersebut pelanggan diharapkan mendapat solusi dari masalah yang sedang dia hadapi sesuai emosi yang terdeteksi. 
@@ -11,17 +13,15 @@ Aplikasi "Emotion Detector For Therapy" ini berfungsi untuk mendeteksi emosi ses
 - Nama : Muhammad Yusril Hasriansyah
 - Kelas : TI 3D
 # Fitur-fitur Aplikasi
-1. Login *Masih belum dibuat
+1. Splash Screen (Menampilkan logo dan nama aplikasi)
 
-2. Sign Up *Masih belum dibuat
+2. Home Screen (Menampilkan splash image dan ucapan selamat datang)
 
-3. Home Screen (Menampilkan splash image dan ucapan selamat datang)
+3. Medical Report (Menampilkan hasil scan pengguna)
 
-4. Medical Report (Menampilkan hasil scan pengguna)
+4. Scan Face (Halaman untuk melakukan scan wajah)
 
-5. Scan Face (Halaman untuk melakukan scan wajah)
-
-6. Profile (Halaman data diri pengguna)
+5. Profile (Halaman data diri pengguna)
 
 # Saran
 

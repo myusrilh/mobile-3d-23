@@ -13,6 +13,9 @@
         <action
             android:id="@+id/navigate_home_to_medical_report"
             app:destination="@id/medical_report_fragment_nav" />
+        <action
+            android:id="@+id/navigate_home_to_profile"
+            app:destination="@id/profile_fragment_nav" />
     </fragment>
     <fragment
         android:id="@+id/medical_report_fragment_nav"
@@ -21,6 +24,21 @@
         tools:layout="@layout/fragment_medical_report" >
         <action
             android:id="@+id/navigate_medical_report_to_home"
+            app:destination="@id/home_fragment_nav" />
+        <action
+            android:id="@+id/navigate_medical_report_to_profile"
+            app:destination="@id/profile_fragment_nav" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile_fragment_nav"
+        android:name="com.example.emotiondetectorfortherapy.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/navigate_profile_to_medical_report"
+            app:destination="@id/medical_report_fragment_nav" />
+        <action
+            android:id="@+id/navigate_profile_to_home"
             app:destination="@id/home_fragment_nav" />
     </fragment>
 </navigation>

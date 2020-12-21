@@ -2,4 +2,13 @@
     <string name="app_name">Emotion Detector For Therapy</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="saran_ahli_text">Tetaplah melakukan aktivitas seperti biasa, sebarkan
+suasana positif yang ada pada diri anda kepada
+orang sekitar, hal itu bisa menambah rasa percaya
+diri anda dan membuat anda merasa lebih bahagia :)</string>
+    <string name="profile_description">Seorang mahasiswa random yang suka melakukan segala hal yang menantang. Sering overthinking dan tidak percaya diri. Namun, itu semua tidak membuat semangat untuk berkarya menghilang.</string>
+    <string name="percentage_progress_bar">50%</string>
+
+    <string name="emotion_detector_api_key_1">cef18cd9167241aa9556f90aa6dfe98d</string>
+    <string name="emotion_detector_api_key_2">ad2cb1f312cd460da99f0deee006a78f</string>
 </resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "624143140632",
+    "project_id": "face-detection-mlkit-app-1b6f5",
+    "storage_bucket": "face-detection-mlkit-app-1b6f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624143140632:android:5b28d2c4abdaa36e4e406d",
+        "android_client_info": {
+          "package_name": "com.example.emotiondetectorfortherapy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624143140632-sov2jvhkka2fl7bkqirh2h4rp6ml9qqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP9RzwubR3tWaZyv4JhcN76WvBnvqoTzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624143140632-sov2jvhkka2fl7bkqirh2h4rp6ml9qqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
